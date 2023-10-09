@@ -15,9 +15,6 @@ export default function Home() {
         </Link>
       </div> */}
 
-      <div className=''>
-        <h1 className='text-6xl text-black text-center py-12'>The Horological Company</h1>
-      </div>
       <Navigation />
       <div className="relative flex justify-center">
         <Link href="/">
