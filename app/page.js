@@ -1,5 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import Navigation from './components/navigation.js'
+// import ImageArray from './components/images-array.js'
 import tempLanding from '../public/tempLanding.webp';
 
 export default function Home() {
@@ -16,7 +18,7 @@ export default function Home() {
       <div className=''>
         <h1 className='text-6xl text-black text-center py-12'>The Horological Company</h1>
       </div>
-
+      <Navigation />
       <div className="relative flex justify-center">
         <Link href="/">
           <Image

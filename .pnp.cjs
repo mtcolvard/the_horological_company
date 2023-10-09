@@ -28,6 +28,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@headlessui/react", "virtual:8b4551756857ea01d078cb6e4de4d0c8577707b1a59a8844682d6f2d1773b2cc68b018dba8d0296f9c895230ccc60fc06c58c61ae421cffdb579f6d76bc346f9#npm:1.7.17"],\
+            ["@heroicons/react", "virtual:8b4551756857ea01d078cb6e4de4d0c8577707b1a59a8844682d6f2d1773b2cc68b018dba8d0296f9c895230ccc60fc06c58c61ae421cffdb579f6d76bc346f9#npm:2.0.18"],\
             ["autoprefixer", "virtual:8b4551756857ea01d078cb6e4de4d0c8577707b1a59a8844682d6f2d1773b2cc68b018dba8d0296f9c895230ccc60fc06c58c61ae421cffdb579f6d76bc346f9#npm:10.4.16"],\
             ["eslint", "npm:8.51.0"],\
             ["eslint-config-next", "virtual:8b4551756857ea01d078cb6e4de4d0c8577707b1a59a8844682d6f2d1773b2cc68b018dba8d0296f9c895230ccc60fc06c58c61ae421cffdb579f6d76bc346f9#npm:13.5.4"],\
@@ -123,6 +125,55 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@eslint-js-npm-8.51.0-51f088b88b-0228bf1e1e.zip/node_modules/@eslint/js/",\
           "packageDependencies": [\
             ["@eslint/js", "npm:8.51.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@headlessui/react", [\
+        ["npm:1.7.17", {\
+          "packageLocation": "./.yarn/cache/@headlessui-react-npm-1.7.17-c3f120aed0-0cdb67747e.zip/node_modules/@headlessui/react/",\
+          "packageDependencies": [\
+            ["@headlessui/react", "npm:1.7.17"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:8b4551756857ea01d078cb6e4de4d0c8577707b1a59a8844682d6f2d1773b2cc68b018dba8d0296f9c895230ccc60fc06c58c61ae421cffdb579f6d76bc346f9#npm:1.7.17", {\
+          "packageLocation": "./.yarn/__virtual__/@headlessui-react-virtual-2cefc0d10e/0/cache/@headlessui-react-npm-1.7.17-c3f120aed0-0cdb67747e.zip/node_modules/@headlessui/react/",\
+          "packageDependencies": [\
+            ["@headlessui/react", "virtual:8b4551756857ea01d078cb6e4de4d0c8577707b1a59a8844682d6f2d1773b2cc68b018dba8d0296f9c895230ccc60fc06c58c61ae421cffdb579f6d76bc346f9#npm:1.7.17"],\
+            ["@types/react", null],\
+            ["@types/react-dom", null],\
+            ["client-only", "npm:0.0.1"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:8b4551756857ea01d078cb6e4de4d0c8577707b1a59a8844682d6f2d1773b2cc68b018dba8d0296f9c895230ccc60fc06c58c61ae421cffdb579f6d76bc346f9#npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@heroicons/react", [\
+        ["npm:2.0.18", {\
+          "packageLocation": "./.yarn/cache/@heroicons-react-npm-2.0.18-3febb62534-597e866881.zip/node_modules/@heroicons/react/",\
+          "packageDependencies": [\
+            ["@heroicons/react", "npm:2.0.18"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:8b4551756857ea01d078cb6e4de4d0c8577707b1a59a8844682d6f2d1773b2cc68b018dba8d0296f9c895230ccc60fc06c58c61ae421cffdb579f6d76bc346f9#npm:2.0.18", {\
+          "packageLocation": "./.yarn/__virtual__/@heroicons-react-virtual-487a3bce3e/0/cache/@heroicons-react-npm-2.0.18-3febb62534-597e866881.zip/node_modules/@heroicons/react/",\
+          "packageDependencies": [\
+            ["@heroicons/react", "virtual:8b4551756857ea01d078cb6e4de4d0c8577707b1a59a8844682d6f2d1773b2cc68b018dba8d0296f9c895230ccc60fc06c58c61ae421cffdb579f6d76bc346f9#npm:2.0.18"],\
+            ["@types/react", null],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4444,6 +4495,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["the_horological_company", "workspace:."],\
+            ["@headlessui/react", "virtual:8b4551756857ea01d078cb6e4de4d0c8577707b1a59a8844682d6f2d1773b2cc68b018dba8d0296f9c895230ccc60fc06c58c61ae421cffdb579f6d76bc346f9#npm:1.7.17"],\
+            ["@heroicons/react", "virtual:8b4551756857ea01d078cb6e4de4d0c8577707b1a59a8844682d6f2d1773b2cc68b018dba8d0296f9c895230ccc60fc06c58c61ae421cffdb579f6d76bc346f9#npm:2.0.18"],\
             ["autoprefixer", "virtual:8b4551756857ea01d078cb6e4de4d0c8577707b1a59a8844682d6f2d1773b2cc68b018dba8d0296f9c895230ccc60fc06c58c61ae421cffdb579f6d76bc346f9#npm:10.4.16"],\
             ["eslint", "npm:8.51.0"],\
             ["eslint-config-next", "virtual:8b4551756857ea01d078cb6e4de4d0c8577707b1a59a8844682d6f2d1773b2cc68b018dba8d0296f9c895230ccc60fc06c58c61ae421cffdb579f6d76bc346f9#npm:13.5.4"],\
